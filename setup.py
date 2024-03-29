@@ -21,7 +21,7 @@ REQUIRES = [
     "scipy",
     "uvicorn",
     "xxhash",
-    "elasticsearch>=7.0.0,<8.0.0",
+    "elasticsearch>=7.0.0,<9.0.0",
     "networkx==2.5.1",
     "pyahocorasick",
     "tiktoken",
