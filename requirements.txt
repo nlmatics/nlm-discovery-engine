@@ -15,5 +15,5 @@ requests==2.31.0
 scikit-learn
 scipy
 tiktoken
-uvicorn==0.15.0
+uvicorn==0.29.0
 xxhash==2.0.2
