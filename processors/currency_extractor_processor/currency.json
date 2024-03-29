@@ -1,0 +1,89 @@
+{
+    "USD": {
+        "alpha3": "USD",
+        "name": "United States dollar",
+        "symbols": [
+            "$",
+            "＄",
+            "﹩",
+            "dollar",
+            "dollars",
+            "Dollar",
+            "Dollars",
+            "US$",
+            "US＄",
+            "US﹩",
+            "U.S.$",
+            "U.S.＄",
+            "U.S.﹩"
+        ]
+    },
+    "EUR": {
+        "alpha3": "EUR",
+        "name": "Euro",
+        "symbols": [
+            "€",
+            "euro",
+            "euros"
+        ]
+    },
+    "GBP": {
+        "alpha3": "GBP",
+        "name": "Pound sterling",
+        "symbols": [
+            "GB£",
+            "£",
+            "pound",
+            "pounds",
+            "Pound",
+            "Pounds",
+            "￡",
+            "GB￡",
+            "UKP"
+        ]
+    },
+    "CAD": {
+        "alpha3": "CAD",
+        "name": "Canadian dollar",
+        "symbols": [
+            "CA$",
+            "CA＄",
+            "＄",
+            "$",
+            "dollar",
+            "dollars",
+            "Dollar",
+            "Dollars",
+            "CA﹩",
+            "﹩"
+        ]
+    },
+    "JPY": {
+        "alpha3": "JPY",
+        "name": "Japanese yen",
+        "symbols": [
+            "JP¥",
+            "￥",
+            "JP￥",
+            "¥",
+            "円",
+            "圓"
+        ]
+    },
+    "AUD": {
+        "alpha3": "AUD",
+        "name": "Australian dollar",
+        "symbols": [
+            "A$",
+            "A＄",
+            "＄",
+            "$",
+            "dollar",
+            "dollars",
+            "Dollar",
+            "Dollars",
+            "A﹩",
+            "﹩"
+        ]
+    }
+}
