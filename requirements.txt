@@ -16,4 +16,4 @@ scikit-learn
 scipy
 tiktoken
 uvicorn==0.15.0
-xxhash==2.0.2
+xxhash==3.4.1
