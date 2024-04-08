@@ -22,7 +22,7 @@ REQUIRES = [
     "uvicorn",
     "xxhash",
     "elasticsearch>=7.0.0,<8.0.0",
-    "networkx==2.5.1",
+    "networkx==3.3",
     "pyahocorasick",
     "tiktoken",
 ]
