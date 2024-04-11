@@ -8,7 +8,7 @@ networkx==2.6.3
 nltk>=3.6.4
 numpy
 openai
-pandas==1.2.4
+pandas==2.2.2
 pyahocorasick
 pydantic
 requests==2.31.0
