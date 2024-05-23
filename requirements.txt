@@ -1,5 +1,5 @@
 dataclasses; python_version<="3.6"
-elasticsearch>=7.0.0,<8.0.0
+elasticsearch>=7.0.0,<9.0.0
 fastapi>=0.92.0,<0.98.0
 nlm-utils @ git+https://github.com/nlmatics/nlm-utils@main
 nlm-ingestor @ git+https://github.com/nlmatics/nlm-ingestor@main
