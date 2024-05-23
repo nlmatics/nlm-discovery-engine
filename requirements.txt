@@ -1,11 +1,12 @@
 dataclasses; python_version<="3.6"
 elasticsearch>=7.0.0,<8.0.0
 fastapi>=0.92.0,<0.98.0
-#nlm-utils
-#nlm-ingestor
+nlm-utils @ git+https://github.com/nlmatics/nlm-utils@main
+nlm-ingestor @ git+https://github.com/nlmatics/nlm-ingestor@main
+server @ git+https://github.com/nlmatics/nlm-services@main
 money==1.3.0
 networkx==2.6.3
-nltk>=3.6.4
+nltk>=3.6.2
 numpy
 openai
 pandas==1.2.4
