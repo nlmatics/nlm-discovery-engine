@@ -8,9 +8,7 @@ COPY . /app
 RUN apt-get update; apt-get -s dist-upgrade | grep "^Inst" | grep -i securi | awk -F " " {'print $2'} | xargs apt-get install \
     && rm -rf /var/lib/{apt,dpkg,cache,log}
 
-RUN mkdir -p -m 0600 ~/.ssh && ssh-keyscan github.com >> ~/.ssh/known_hosts
-
-RUN --mount=type=ssh,id=github_ssh_key pip install --upgrade pip setuptools && pip install --no-cache-dir -r requirements.txt
+RUN pip install --upgrade pip setuptools && pip install --no-cache-dir -r requirements.txt
 
 RUN python -m nltk.downloader stopwords && \
     python -m nltk.downloader punkt
