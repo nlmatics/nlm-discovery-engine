@@ -12,7 +12,7 @@ openai
 pandas==1.2.4
 pyahocorasick
 pydantic
-requests==2.31.0
+requests==2.32.3
 scikit-learn
 scipy
 tiktoken
